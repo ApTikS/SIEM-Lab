@@ -1,0 +1,56 @@
+# SIEM Home Lab Deployment 🛡️
+
+This repository documents the step-by-step process of building a home Security Information and Event Management (SIEM) laboratory.
+
+---
+
+<details>
+  <summary><b>🇷🇺 Читать на русском (Click to expand)</b></summary>
+
+### Описание проекта
+Здесь я буду поэтапно рассказывать, как я развертывал свою SIEM-лабораторию. Весь процесс разделен на несколько ключевых этапов:
+
+1. **Этап 1: Подготовка инфраструктуры**
+   * **Цель:** Создать изолированную сеть, где машины видят друг друга и имеют доступ в интернет.
+   * **Статус:** Выполнено ✅
+
+2. **Этап 2: Установка сервера Wazuh**
+   * **Цель:** Развернуть серверную часть, которая будет собирать, хранить и анализировать логи.
+   * **Статус:** В процессе ⏳
+
+3. **Этап 3: Установка агентов**
+   * **Цель:** Настройка сбора логов с конечных точек для дальнейшей обработки на сервере.
+
+4. **Этап 4: Атака и детектирование**
+   * **Цель:** Проверить работоспособность SIEM путем симуляции реальных атак на систему.
+
+## Архитектура лаборатории 
+- **SIEM Server:** Ubuntu Server (Wazuh)
+- **Атакующий:** Kali Linux
+- **Цель:** Windows VM / Linux VM
+</details>
+
+---
+
+## Project Roadmap
+
+### Stage 1: Infrastructure Preparation
+**Goal:** Create an isolated virtual network where all machines have connectivity and internet access.
+* **Status:** Done ✅
+
+### Stage 2: Wazuh Server Installation
+**Goal:** Deploy the central management server to collect, store, and analyze security logs.
+* **Status:** In Progress ⏳
+
+### Stage 3: Endpoint Agent Deployment
+**Goal:** Configure log shipping from endpoints (Windows/Linux) to the Wazuh manager.
+
+### Stage 4: Attack & Detection Simulation
+**Goal:** Validate SIEM capabilities by simulating real-world attacks and verifying alerts.
+
+---
+
+## Lab Architecture
+- **SIEM Server:** Ubuntu Server (Wazuh)
+- **Attacker:** Kali Linux
+- **Target:** Windows VM / Linux VM
