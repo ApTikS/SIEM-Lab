@@ -1,0 +1,14 @@
+# Original file: /etc/netplan/50-cloud-init.yaml
+# Purpose: Static IP for Host-Only adapter (192.168.56.10) 
+# and DHCP for NAT (Internet access)
+
+network:
+  version: 2
+  ethernets:
+    enp0s3: # Interface for NAT (Internet access)
+      dhcp4: true
+    enp0s8: # Interface for Host-Only (Internal Lab Network)
+      addresses:
+        - 192.168.56.10/24 # Static IP for Wazuh Server
+      nameservers:
+        addresses: [8.8.8.8, 8.8.4.4] # Public DNS
