@@ -65,7 +65,7 @@ CPU	2 Cores	2 Cores	2 Cores	6-8 Cores
     PasswordAuthentication yes — разрешаем вход по паролю (на этапе лабы это допустимо).
 
     ListenAddress [IP_вашего_интерфейса] — указываем адрес, на котором сервер ждет подключений.
-<img width="1276" height="884" alt="{FFCFAA20-1E2B-401E-9F8C-62563CE4A664}" src="https://github.com/user-attachments/assets/3d7b9f60-c45e-4bf1-a284-8265df41886c" />
+<img width="1278" height="880" alt="{8AF20A73-B2D1-4392-AE61-A97BF7706B37}" src="https://github.com/user-attachments/assets/9934e2d7-5e1d-463d-98a9-5050e8a0601b" />
 
 
 Запуск сервера: systemctl start ssh.
@@ -81,6 +81,7 @@ CPU	2 Cores	2 Cores	2 Cores	6-8 Cores
 
 В Log #02 я перейду к самому интересному — установке и первичной настройке Wazuh SIEM.
  
+
 
 
 
