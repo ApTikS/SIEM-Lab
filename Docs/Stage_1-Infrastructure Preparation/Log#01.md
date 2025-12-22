@@ -17,7 +17,7 @@ Log #01: Подготовка инфраструктуры и сетевого �
 
     Ubuntu Server 22.04 LTS — https://ubuntu.com/download/server 
 
-    Parrot Security OS — [Специализированный дистрибутив для пентеста.](https://parrotsec.org/download/ )
+    Parrot Security OS — https://parrotsec.org/download/ 
 
 🛠 Выбор платформы: VirtualBox
 
@@ -76,4 +76,5 @@ CPU	2 Cores	2 Cores	2 Cores	6-8 Cores
 
 В Log #02 я перейду к самому интересному — установке и первичной настройке Wazuh SIEM.
  
+
 
