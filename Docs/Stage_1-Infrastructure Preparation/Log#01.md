@@ -44,10 +44,10 @@ CPU	2 Cores	2 Cores	2 Cores	6-8 Cores
     NAT Network: Дает всем машинам выход в интернет и позволяет им видеть друг друга.
 
         Как настроить: Главная -> Сеть -> Сеть NAT -> Создать. Затем в настройках каждой ВМ выбрать созданную сеть.
-    <img width="890" height="511" alt="{555D833D-C4BF-491E-AEF2-73E2E4D7E292}" src="https://github.com/user-attachments/assets/7cafba7f-c461-4ac3-afd3-1f873723dde0" />
+<img width="890" height="511" alt="{555D833D-C4BF-491E-AEF2-73E2E4D7E292}" src="https://github.com/user-attachments/assets/7cafba7f-c461-4ac3-afd3-1f873723dde0" />
 
     Host-Only Adapter (Ubuntu): Я добавил второй интерфейс для подключения по SSH с основной машины. Это надежнее и удобнее, чем стандартный общий буфер обмена.
-    <img width="891" height="504" alt="{26C8A7C5-DD40-44CD-9670-C70AEAC950E4}" src="https://github.com/user-attachments/assets/c66543c2-9ad6-4192-a45c-c7e19b2a1561" />
+<img width="891" height="504" alt="{26C8A7C5-DD40-44CD-9670-C70AEAC950E4}" src="https://github.com/user-attachments/assets/c66543c2-9ad6-4192-a45c-c7e19b2a1561" />
 
 Почему для Wazuh и SSH важен статический IP?
 
@@ -76,6 +76,7 @@ CPU	2 Cores	2 Cores	2 Cores	6-8 Cores
 
 В Log #02 я перейду к самому интересному — установке и первичной настройке Wazuh SIEM.
  
+
 
 
 
