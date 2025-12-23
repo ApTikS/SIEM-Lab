@@ -33,7 +33,7 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 
 Алгоритм действий:
 
-    Перейти в директорию с инструментами безопасности индексатора:
+Перейти в директорию с инструментами безопасности индексатора:
     cd /usr/share/wazuh-indexer/plugins/opensearch-security/tools/
 
 Запустить скрипт смены пароля:
@@ -49,4 +49,5 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 После перезагрузки сервера вход в веб-интерфейс Wazuh Dashboard по адресу https://<IP_адрес_сервера> с новым паролем выполнен успешно. Система готова к работе и подключению агентов.
 
 <img width="1275" height="881" alt="Без имени123" src="https://github.com/user-attachments/assets/937c2e39-eebb-41c0-b358-4da3b9823635" />
+
 
