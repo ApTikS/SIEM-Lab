@@ -29,10 +29,11 @@ Here, I will describe step-by-step how I deployed my SIEM lab. I have divided th
 
 ### Stage 2: Wazuh Server Installation
 * **Objective:** Deploy the server part that will collect, store, and analyze logs.
-* **Status:** In Progress ⏳
+* **Status:** Done ✅
 
 ### Stage 3: Installing Agents
 * **Objective:** Collect logs from endpoints for further processing on the server.
+* **Status:** In Progress ⏳
 
 ### Stage 4: Attack and Detection
 * **Objective:** Check if the SIEM works as intended by simulating attacks on the system.
